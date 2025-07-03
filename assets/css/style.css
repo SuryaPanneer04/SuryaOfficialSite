@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 :root {
-  --header-height: 3rem;
+  --header-height: 4rem;
 
-  --hue-color: 269;
-  --first-color: hsl(var(--hue-color), 67%, 37%); /* #3f1f5f */
+  --hue-color: 520;
+  --first-color: hsl(var(--hue-color), 67%, 37%); 
   --first-color-second: hsl(var(--hue-color), 69%, 61%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%); /* #7d6bd6 */
   --first-color-lighter: hsl(var(--hue-color), 92%, 85%); /* #c2b6fc */
@@ -16,7 +16,7 @@
   --container-color: #fff;
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
-  --body-font: "Poppins", sans-serif;
+  --body-font: "Montserrat", sans-serif;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px */
   --big-font-size: 2rem;
@@ -297,7 +297,8 @@ button {
 
 .home_blob {
   width: 200px;
-  fill: var(--first-color);
+  /* fill: var(--first-color); */
+  fill:#fff
 }
 
 .home_blob-img {
